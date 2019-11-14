@@ -1,7 +1,8 @@
+//Required Dependencies
 const path = require(`path`)
 
 //Export the HTML routes
-module.exports = (app) => {
+module.exports = app => {
 
   //Survey Page
   app.get(`/survey`, (req, res) => {
