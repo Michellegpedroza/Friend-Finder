@@ -13,8 +13,8 @@ module.exports = app => {
   })
 
   //Handling incoming survey results and compatibility Logic
-  app.post(`api/friends`, (req, res) = > {
-    
+  app.post(`/api/friends`, (req, res) => {
+   
   })
 
 }
